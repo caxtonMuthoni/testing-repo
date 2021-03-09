@@ -1,13 +1,13 @@
-*, 
+*,
 *::after,
 *::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -26,12 +26,31 @@ h1 {
 }
 
 .features {
-    padding: 15rem 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: aqua;
-    color: indigo;
-    font-size: 3rem;
+  padding: 15rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  color: indigo;
+  font-size: 3rem;
+}
 
+.contact {
+  padding: 15rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(9, 1, 85);
+  color: rgb(233, 206, 252);
+  font-size: 3rem;
+}
+
+.input {
+  outline: none;
+  border: none;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  display: block;
 }
